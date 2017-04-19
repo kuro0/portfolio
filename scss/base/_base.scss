@@ -1,0 +1,25 @@
+body {
+    background-color: #00f;
+}
+
+ /*表示領域が768px以上の時*/
+  @media screen and (min-width: $tab) {
+      
+  }
+
+/*表示領域が960px以上の時*/
+  @media screen and (min-width: $pc) {
+      
+  }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
